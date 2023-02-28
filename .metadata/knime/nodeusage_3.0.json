@@ -1,0 +1,57 @@
+
+{
+    "version": "4.7.0.v202212010827",
+    "created": "2023-02-14 19:28",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory#CSV Reader",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 288,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2#k-Means"
+            },
+            {
+                "id": "org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2#k-Means",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 360,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory#CSV Writer"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory#CSV Writer",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 157,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.correlation.compute2.CorrelationCompute2NodeFactory#Linear Correlation",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        }
+    },
+    "uptime": 51731391,
+    "workflowsOpened": 1,
+    "remoteWorkflowsOpened": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "launches": 1,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 51731391,
+    "crashes": 0,
+    "properlyShutDown": false
+}

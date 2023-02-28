@@ -1,0 +1,2 @@
+G:\Meu Drive\Ciencia_de_dados\Portfolio_DS\Marketing_Analytics_Ifood\ifood_kmeans.csv
+/ifood_df.csv
